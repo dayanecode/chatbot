@@ -1,5 +1,7 @@
 # Chatbot Greenfield
 
+## BACKEND (API)
+
 ### Dependências:
 `pip install django`
 `pip install djangorestframework`
@@ -17,4 +19,12 @@
 ### Inicialização do servidor de aplicação web
 
 `python manage.py runserver`
-# chatbot
+
+#### Endpoint Principal
+http://localhost:8000/chatbot_api/principal
+
+----------------------------------------------------------------
+
+## FRONTEND
+
+
