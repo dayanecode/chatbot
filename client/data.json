@@ -1,0 +1,61 @@
+
+
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Olá", "Como você está", "Tem alguém aí?", "Oi", "Olá", "Bom dia"],
+    "responses": ["Olá, obrigado por perguntar", "Que bom te ver novamente", "Olá, como posso ajudar?"],
+    "context": [""]
+    },
+    {"tag": "goodbye",
+    "patterns": ["Tchau", "Até logo", "Adeus", "Foi bom conversar com você, tchau", "Até a próxima"],
+    "responses": ["Até logo!", "Tenha um bom dia", "Tchau! Volte em breve."],
+    "context": [""]
+    },
+    {"tag": "thanks",
+    "patterns": ["Obrigado", "Obrigado(a)", "Isso é útil", "Legal, obrigado", "Obrigado por me ajudar"],
+    "responses": ["Fico feliz em ajudar!", "Estou disponível a qualquer momento!", "O prazer é todo meu"],
+    "context": [""]
+    },
+    {"tag": "esg",
+    "patterns": ["1","O que é ESG?"],
+    "responses": ["A sigla ESG abrevia as palavras environmental, social and corporate governance, que podem ser traduzidas como meio ambiente, sociedade e governança. O objetivo é pensar estratégias e adotar políticas na empresa que engloba esses três  e cooperem para um ambiente sustentável, não somente no que tange à ecologia, mas sim na criação de um ecossistema que cause cada vez menos impactos negativos à sociedade como um todo."],
+    "context": ["\\esg"]
+    },
+    {"tag": "tendenciasesg",
+    "patterns": ["2","Quais são as tendências do mercado em relação ao ESG?"],
+    "responses": ["Melhores condições de trabalho e mercado de carbono são uma das principais tendências. Nos próximos anos, haja vista que a flexibilização do trabalho ganhou força nas empresas e até novos benefícios passaram a ser incluídos com a finalidade de reter talentos e manter os colaboradores motivados."],
+    "context": ["\\tendencias-esg"]
+    },
+    {"tag": "metricasesg",
+    "patterns": ["3","Quais são as métricas ESG mais relevantes para minha empresa?"],
+    "responses": ["Separadas em 3 pilares, são elas: 1 - Meio ambiente: considera a relação entre investimento e impacto, e pode abranger tópicos como a maneira com a qual a empresa lida com seu lixo, a emissão de carbono, o emprego de químicos, a utilização de recursos como energia e água, entre outros.2 - Sociedade: esse tópico trata das relações sociais da empresa – como os funcionários são tratados? Como funciona a inclusão e a acessibilidade de indivíduos de diferentes etnias e classes sociais, LGBQIA+ e pessoas com deficiência? Qual a relação entre a empresa e o ecossistema em que ela está inserida?3 - Governança: se refere às mudanças positivas geradas pela empresa, como colaboradores bem remunerados, diversidade na liderança, bom relacionamento com fornecedores e acionistas, recusa a práticas corruptas e cumprimento de obrigações legais."],
+    "context": ["\\metricas-esg"]
+    },
+    {"tag": "definirmetricasesg",
+    "patterns": ["4","Como podemos definir metas ESG para nossa empresa?"],
+    "responses": ["Você pode revisar os processos da empresa, investir em práticas ecológicas, definir propósito, missão e valores, criar grupos de discussão, e definir indicadores de desempenho."],
+    "context": ["\\definir-metricas-esg"]
+    },
+    {"tag": "sustentabilidade",
+    "patterns": ["5","Quais são as melhores práticas para a implementação de um programa de sustentabilidade em uma empresa?"],
+    "responses": ["Adotar práticas sustentáveis em sua empresa vai fazer com que ela seja ainda mais valorizada pelos clientes que lhe acompanham, e vai fazer com que você conquiste ainda mais consumidores para que o seu negócio cresça de forma sempre positiva.Veja 10 delas:1 - Restrinja o uso de copos descartáveis;2 - Economize papel, água e energia;3 - Invista na reciclagem;4 - Utilize equipamentos econômicos;5 - Incentive o uso de transportes alternativos;6 - Invista e implante treinamentos sobre sustentabilidade;7 - Crie projetos de preservação do meio ambiente;8 - Respeite as leis ambientais;9 - Não polua o meio ambiente;10 - Utilize fontes de energia re nováveis."],
+    "context": ["\\implementacao-sustentabilidade"]
+    },
+    {"tag": "desempenhoesg",
+    "patterns": ["6","Como posso criar um plano de ação para melhorar o desempenho ESG da minha empresa?"],
+    "responses": ["Seguem abaixo sete passos que irão auxiliar sua empresa a entrar nessa promissora jornada, rumo a um mundo corporativo de maior autorresponsabilidade e menor surpresa:1 - Tenha em mente um programa específico de trabalho;2 - Crie uma política alinhada a sua visão e valores;3 - Defina local points para cada pilar ESG;4 - Faça um brainstorm completo para compilar os riscos existentes;5 - Crie uma priorização dos riscos inventariados;6 -  Trabalhar nas três frentes de trabalho : Pessoas, processos e sistemas de gestão;7 - Estar atento aos Resultados."],
+    "context": ["\\desempenho-esg"]
+    },
+    {"tag": "semresposta",
+    "patterns": ["Como a plataforma Greenfield pode ajudar minha empresa a adotar práticas ESG?","Como a Greenfield avalia e monitora o desempenho ESG de uma empresa?","Como a Greenfield pode ajudar a melhorar a cultura de sustentabilidade em minha empresa?","Como posso acessar relatórios de desempenho ESG gerados pela plataforma Greenfield?", "Como começar?", "O que é RPG?", "Como funciona um RPG?", "O que é gamificação?", "Como funciona a gamificação?"],
+    "responses": ["Desculpe, ainda não sei a resposta para isso... Mas não se preocupe! Avisarei os meus desenvolvedores para me ensinarem o quanto antes!"],
+    "context": [""]
+    },
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Desculpe, não consigo entender você", "Por favor, me forneça mais informações", "Não tenho certeza se entendi"],
+    "context": [""]
+    }
+    
+]
+}
