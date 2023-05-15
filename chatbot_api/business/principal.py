@@ -1,4 +1,5 @@
 from ..models import Pergunta, Resposta
+
 def obterPerguntaPrincipal():
     pergunta = Pergunta()
     pergunta.codigo = 1
@@ -55,7 +56,7 @@ def obterPerguntaPrincipal():
     resposta6 = Resposta()
     resposta6.codigo = 6
     resposta6.valor = 'Como a Greenfield avalia e monitora o desempenho ESG de uma empresa?'
-    resposta6.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta6.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta6.acao = "\greenfield-monitora-esg"
 
@@ -82,7 +83,7 @@ def obterPerguntaPrincipal():
     resposta8 = Resposta()
     resposta8.codigo = 8
     resposta8.valor = 'Como a Greenfield pode ajudar a melhorar a cultura de sustentabilidade em minha empresa?'
-    resposta8.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta8.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta8.acao = "\greenfield-sustentabilidade-empresa"
 
@@ -104,7 +105,7 @@ def obterPerguntaPrincipal():
     resposta10 = Resposta()
     resposta10.codigo = 10
     resposta10.valor = 'Como posso acessar relatórios de desempenho ESG gerados pela plataforma Greenfield?'
-    resposta10.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta10.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta10.acao = "\greenfield-relatorios-esg"
 
@@ -112,7 +113,7 @@ def obterPerguntaPrincipal():
     resposta11 = Resposta()
     resposta11.codigo = 11
     resposta11.valor = 'Como começar?'
-    resposta11.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta11.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta11.acao = "\greenfield-comecar"
 
@@ -120,7 +121,7 @@ def obterPerguntaPrincipal():
     resposta12 = Resposta()
     resposta12.codigo = 12
     resposta12.valor = 'O que é RPG?'
-    resposta12.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta12.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta12.acao = "\greenfield-rpg"
 
@@ -128,7 +129,7 @@ def obterPerguntaPrincipal():
     resposta13 = Resposta()
     resposta13.codigo = 13
     resposta13.valor = 'Como funciona um RPG?'
-    resposta13.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta13.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta13.acao = "\greenfield-funcionamento-rpg"
 
@@ -136,7 +137,7 @@ def obterPerguntaPrincipal():
     resposta14 = Resposta()
     resposta14.codigo = 14
     resposta14.valor = 'O que é gamificação?'
-    resposta14.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta14.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta14.acao = "\greenfield-gamificacao"
 
@@ -144,7 +145,7 @@ def obterPerguntaPrincipal():
     resposta15 = Resposta()
     resposta15.codigo = 15
     resposta15.valor = 'Como funciona a gamificação?'
-    resposta15.descricao = "EscreverResposta// Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
+    resposta15.descricao = "Desculpe, ainda não sei a resposta para isso... Mas não se preocupe!" \
                            "Avise meus desenvolvedores para me ensinar o quanto antes!"
     resposta15.acao = "\greenfield-funcionamento-gamificação"
 
@@ -183,3 +184,15 @@ def obterPerguntaPrincipal():
     pergunta.respostas.add(resposta15)
 
     return pergunta
+
+
+def main():
+    prompt_list = 'Hello'
+
+    while False:
+        user_input: str = input('Você: ')
+        response: str = obterPerguntaPrincipal(user_input, prompt_list)
+        print(f'Bot: {response}')
+
+if __name__ == '__main__':
+    main()  
