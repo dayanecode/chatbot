@@ -1,14 +1,25 @@
 # Chatbot Greenfield
 
+## FRONTEND
+
+### na pasta `.\chatbot\client>` instale as seguintes dependências:
+`pip install tensorflow` 
+`pip install keras` 
+`pip install nltk`
+`pip install flask`
+
+### Execute:
+Em primeiro lugar `python training.py`
+Em seguida `python app.py`
+
+### Aplicação pronta para rodar em http://localhost:5000
+----------------------------------------------------------------
+
 ## BACKEND (API)
 
-### Dependências:
+### Dependências do Backend:
 `pip install django`
 `pip install djangorestframework`
-
-
-### Criação da Aplicação
-#### Antes de clonar o repositório será necessário criar a pasta `./chatbot` na raiz do seu projeto 
 
 ### Inicialização dos links
 
@@ -20,11 +31,6 @@
 
 `python manage.py runserver`
 
-#### Endpoint Principal
-http://localhost:8000/chatbot_api/principal
-
-----------------------------------------------------------------
-
-## FRONTEND
+### Servidor pronto para rodar em http://localhost:8000/chatbot_api/principal
 
 
