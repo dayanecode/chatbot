@@ -2,17 +2,18 @@
 
 ## FRONTEND
 
-### na pasta `.\chatbot\client>` instale as seguintes dependências:
+### Execute:
+Em primeiro lugar `python training.py`, para 'treinar as mensagens' e em seguida `python app.py` para executar a aplicação.
+
+### O Chatbot Greenfield estará pronto para rodar em http://localhost:5000
+
+
+### Dependências do Frontend:
 `pip install tensorflow` 
 `pip install keras` 
 `pip install nltk`
 `pip install flask`
 
-### Execute:
-Em primeiro lugar `python training.py`
-Em seguida `python app.py`
-
-### Aplicação pronta para rodar em http://localhost:5000
 ----------------------------------------------------------------
 
 ## BACKEND (API)
